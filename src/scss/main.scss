@@ -1,15 +1,23 @@
-@import './bootstrap-variables';
-@import './bootstrap-custom';
+@import "../../node_modules/mini.css/src/flavors/mini-default";
+@import "../../node_modules/mini.css/src/mini/card";
+@import "../../node_modules/mini.css/src/mini/contextual";
+@import "../../node_modules/mini.css/src/mini/navigation";
+@import "../../node_modules/mini.css/src/mini/progress";
+@import "../../node_modules/mini.css/src/mini/tab";
+@import "../../node_modules/mini.css/src/mini/table";
+@import "../../node_modules/mini.css/src/mini/utility";
 
 body {
   padding: 20px;
+  background-color: #e6ecf0;
 }
 
-#root {
-  .panel-heading {
-    font-size: 20px;
-    font-weight: bold;
-  }
+section {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px;
 }
 
 footer {
