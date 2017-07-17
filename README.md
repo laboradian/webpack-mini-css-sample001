@@ -1,3 +1,3 @@
-webpack + mini.css のサンプル001
+webpack + react + redux + mini.css のサンプル001
 ===============================
 
