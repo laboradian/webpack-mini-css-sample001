@@ -1,0 +1,17 @@
+@import './bootstrap-variables';
+@import './bootstrap-custom';
+
+body {
+  padding: 20px;
+}
+
+#root {
+  .panel-heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+footer {
+  text-align: right;
+}
